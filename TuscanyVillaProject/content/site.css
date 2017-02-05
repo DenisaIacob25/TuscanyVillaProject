@@ -24,5 +24,43 @@ h1.design{
     font-size:90px;
 }
 /*NAVBAR*/
+a#logoImg.navbar-brand{
+    padding-top:0px;
+    padding-left:0px;
+    padding-bottom:0px;
+}
+#logoImg img{
+    width:160px;
+    height:55px;
+}
+ul.nav.navbar-nav.navbar-right{
+    background-color:#79C5CF;
+    margin-right:0px;
+}
+li.navbar-brand{
+    background-color:#79C5CF;
+}
+.navbar-default .navbar-brand{
+    color:#FFFFFF;
+    border-color:#FFFFFF;
+     width:130px;
+     height:55px;
+}
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+   border:none;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+    background-color:#FFFFFF;
+}
+div#myNavbar.collapse.navbar-collapse{
+    padding-right:0px;
+}
+div.container-fluid{
+    padding-right:0px;
+}
 
 /*FOOTER*/
