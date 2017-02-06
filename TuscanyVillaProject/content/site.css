@@ -1,86 +1,245 @@
 ﻿body {
     font-family: 'Open Sans', sans-serif;
-    font-weight:500;
+    font-weight: 500;
 }
 /*HEADER*/
-.jumbotron{
-    margin-top:0px;
-    background-color:#D3D4D3;
-    padding-top:3px;
-    margin-bottom:0px;
-    text-align:center;
+.jumbotron {
+    margin-top: 0px;
+    background-color: #D3D4D3;
+    padding-top: 3px;
+    margin-bottom: 0px;
+    text-align: center;
 }
-h1.homepage{
-    margin-top:0px;
-    padding-top:25px;
+
+h1.homepage {
+    margin-top: 0px;
+    padding-top: 25px;
     font-family: 'Open Sans', sans-serif;
-    font-weight:500;
-    letter-spacing:4px;
-    margin-bottom:0px;
+    font-weight: 500;
+    letter-spacing: 4px;
+    margin-bottom: 0px;
 }
-h1.design{
-    margin-top:0px;
+
+h1.design {
+    margin-top: 0px;
     font-family: 'Sacramento', cursive;
-    font-size:100px;
-    font-style:italic;
-    letter-spacing:-3px;
+    font-size: 100px;
+    font-style: italic;
+    letter-spacing: -3px;
 }
 /*NAVBAR*/
-a#logoImg.navbar-brand{
-    padding-top:0px;
-    padding-left:15px;
-    padding-bottom:0px;
+a#logoImg.navbar-brand {
+    padding-top: 0px;
+    padding-left: 15px;
+    padding-bottom: 0px;
 }
-#logoImg img{
-    width:160px;
-    height:55px;
+
+#logoImg img {
+    width: 160px;
+    height: 55px;
 }
-ul.nav.navbar-nav.navbar-right{
-    background-color:#79C5CF;
-    margin-right:0px;
+
+ul.nav.navbar-nav.navbar-right {
+    background-color: #79C5CF;
+    margin-right: 0px;
 }
-li.navbar-brand{
-    background-color:#79C5CF;
+
+li.navbar-brand {
+    background-color: #79C5CF;
 }
-.navbar-default .navbar-brand{
-    color:#FFFFFF;
-    border-color:#FFFFFF;
-     width:130px;
-     height:55px;
+
+.navbar-default .navbar-brand {
+    color: #FFFFFF;
+    border-color: #FFFFFF;
+    width: 130px;
+    height: 55px;
 }
+
 .navbar .navbar-nav {
     display: inline-block;
     float: none;
-   border:none;
+    border: none;
 }
 
 .navbar .navbar-collapse {
     text-align: center;
-    background-color:#FFFFFF;
-}
-div#navbarTop.navbar-collapse{
-    padding-right:0px;
-}
-div.container-fluid{
-    padding-right:0px;
-    padding-left:0px;
+    background-color: #FFFFFF;
 }
 
+div#navbarTop.navbar-collapse {
+    padding-right: 0px;
+}
+
+div.container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+nav.navbar.navbar-default{
+    border-bottom:0px;
+    margin-bottom:0px;
+}
+
+/*Thumbnails*/
+
+.boxes {
+    padding: 0;
+    height: 200px;
+    background-size: cover;
+}
+
+.topRow {
+    padding: 0;
+    height: 400px;
+}
+a.btn.btn-primary {
+    background-color:#FFFFFF;
+    background: #FFFFFF;
+    border-color:#FFFFFF;
+    color: black;
+    text-align:center;
+}
+#bannerImgText {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: #FFFFFF;
+    background-color: #4D513F;
+    padding: 15px;
+    margin: 10%;
+    margin-top: 25%;
+}
+
+#mapText {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: #FFFFFF;
+    background-color: #4D513F;
+    padding: 15px;
+    margin: 10%;
+    margin-top: 25%;
+}
+
+#text {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: #FFFFFF;
+    background-color: #4D513F;
+    padding: 15px;
+    margin: 5%;
+    margin-top: 25%;
+}
+#text2{
+    text-align:center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#bannerImg {
+    background-image: url('../images/rent-villa-in-tuscany_WOT.jpg');
+    background-size: cover;
+}
+
+#mapImg {
+    background-image: url('../Images/Versilia.jpg');
+    background-size: cover;
+}
+
+#nopic1 {
+    background-image: url('../images/blank.png');
+    height: 335px;
+    width: 335px;
+}
+
+#pic2 {
+    background-image: url('../Images/Villa-Rucellai-Toscani-2750-2-348x348.jpg');
+    height: 335px;
+    width: 335px;
+}
+#pic3 {
+    background-image: url('../Images/3b-348x348.jpg');
+    height: 335px;
+    width: 335px;
+}
+
+#pic4 {
+    background-image: url('../images/Villa-Vanna-231-348x348.jpg');
+    height: 335px;
+    width: 335px;
+}
+
+#pic5 {
+    background-image: url('../Images/314-348x348.jpg');
+    height: 335px;
+    width: 335px;
+}
+
+#nopic6 {
+    background-image: url('../images/blank.png');
+    height: 335px;
+    width: 340px;
+}
+
+#pic7 {
+    background-image:url('../Images/Villa-Vanna-231-348x348.jpg');
+    height: 335px;
+    width: 335px;
+}
+
+#nopic8 {
+    background-image: url('../images/blank.png');
+    height: 335px;
+    width: 335px;
+}
+
+#nopic9 {
+    background-image: url('../images/blank.png');
+    height: 335px;
+    width: 335px;
+}
+
+#pic10 {
+    background-image: url('../Images/Villa-Rucellai-Toscani-2812-2-348x348.jpg');
+    height: 335px;
+    width: 335px;
+}
+
+#pic11 {
+    background-image: url('../images/reviews image.PNG');
+    height: 335px;
+    width: 335px;
+}
+
+#pic12 {
+    padding-top: 50px;
+    height: 335px;
+    width: 335px;
+}
+
+    #pic12 h4 {
+        font-family: 'Open Sans', sans-serif;
+        text-align: start;
+    }
 /*FOOTER*/
-footer{
-    background-color:#D2D2D2;
-    height:100px;
+div#container {
+    margin-top:0px;
 }
-img#socialImg{
-    float:right;   
-    height:70px;
+
+footer {
+    background-color: #D2D2D2;
+    height: 200px;
 }
+
+img#socialImg {
+    float: right;
+    height: 70px;
+}
+
 p.footer-text {
-    padding-left:150px;
+    padding-left: 150px;
 }
-footer small{
-    padding-left:150px;
+
+footer small {
+    padding-left: 150px;
 }
-footer h6{
-   text-align:right;
+
+footer h6 {
+    text-align: right;
 }
